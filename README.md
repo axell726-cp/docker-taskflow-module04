@@ -6,6 +6,7 @@ TaskFlow es una aplicación de tareas con frontend HTML/CSS/JavaScript y backend
 
 - GitHub: https://github.com/axell726-cp/docker-taskflow-module04
 - LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7525839777632247808/
+- Estado de entrega Codomax: aprobado.
 - Aplicación local con Compose: http://127.0.0.1:3004
 - Evidencias de construcción, ejecución, pruebas y captura: `evidence/`
 
