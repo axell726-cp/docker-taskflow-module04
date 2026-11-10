@@ -1,0 +1,104 @@
+--progress is a global compose flag, better use `docker compose --progress xx build ...
+ Image docker-taskflow-module04:local Building
+#1 [internal] load local bake definitions
+#1 reading from stdin 645B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 30B 0.0s
+#2 transferring dockerfile: 511B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:22-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:22-alpine
+#3 DONE 4.3s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 115B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 DONE 0.0s
+
+#7 [1/5] FROM docker.io/library/node:22-alpine@sha256:0e1754758c2df4cfa3e68d59e2e1b7374bb7fd9ea6328eaaacf15cc934af8202
+#7 resolve docker.io/library/node:22-alpine@sha256:0e1754758c2df4cfa3e68d59e2e1b7374bb7fd9ea6328eaaacf15cc934af8202 0.0s done
+#7 ...
+
+#6 [internal] load build context
+#6 transferring context: 27.14kB 0.1s done
+#6 DONE 0.1s
+
+#7 [1/5] FROM docker.io/library/node:22-alpine@sha256:0e1754758c2df4cfa3e68d59e2e1b7374bb7fd9ea6328eaaacf15cc934af8202
+#7 sha256:df11f9b3da94f640e357ccc86df09a574dc04df1ad95e012f511f4a02b566cd3 0B / 1.26MB 0.2s
+#7 sha256:df11f9b3da94f640e357ccc86df09a574dc04df1ad95e012f511f4a02b566cd3 1.05MB / 1.26MB 0.3s
+#7 sha256:071409a402546fea9e56af710d951a9e0c9bb205e4b1186811677d2c9dcad115 443B / 443B 0.2s done
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 0B / 56.22MB 0.2s
+#7 sha256:881fc932939efef04ca120ad44bbd2c0917851eb247aa4995428afb1e80ede17 0B / 3.85MB 0.2s
+#7 sha256:df11f9b3da94f640e357ccc86df09a574dc04df1ad95e012f511f4a02b566cd3 1.26MB / 1.26MB 0.3s done
+#7 sha256:881fc932939efef04ca120ad44bbd2c0917851eb247aa4995428afb1e80ede17 1.05MB / 3.85MB 0.6s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 3.15MB / 56.22MB 0.9s
+#7 sha256:881fc932939efef04ca120ad44bbd2c0917851eb247aa4995428afb1e80ede17 3.85MB / 3.85MB 1.0s done
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 6.29MB / 56.22MB 1.2s
+#7 extracting sha256:881fc932939efef04ca120ad44bbd2c0917851eb247aa4995428afb1e80ede17
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 9.44MB / 56.22MB 1.7s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 12.58MB / 56.22MB 2.3s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 16.78MB / 56.22MB 2.9s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 19.92MB / 56.22MB 3.2s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 23.07MB / 56.22MB 3.9s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 26.21MB / 56.22MB 4.4s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 29.36MB / 56.22MB 4.7s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 32.51MB / 56.22MB 5.0s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 36.70MB / 56.22MB 5.4s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 40.89MB / 56.22MB 5.9s
+#7 extracting sha256:881fc932939efef04ca120ad44bbd2c0917851eb247aa4995428afb1e80ede17 4.9s done
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 44.04MB / 56.22MB 6.2s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 47.19MB / 56.22MB 6.3s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 50.33MB / 56.22MB 6.6s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 53.48MB / 56.22MB 6.9s
+#7 sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 56.22MB / 56.22MB 7.1s done
+#7 extracting sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c
+#7 extracting sha256:2a9491572f6e8f9c3be47a2d17b7dcd30f264003f2cbeedf9359544b3ca5396c 22.7s done
+#7 DONE 30.0s
+
+#7 [1/5] FROM docker.io/library/node:22-alpine@sha256:0e1754758c2df4cfa3e68d59e2e1b7374bb7fd9ea6328eaaacf15cc934af8202
+#7 extracting sha256:df11f9b3da94f640e357ccc86df09a574dc04df1ad95e012f511f4a02b566cd3
+#7 extracting sha256:df11f9b3da94f640e357ccc86df09a574dc04df1ad95e012f511f4a02b566cd3 5.8s done
+#7 DONE 35.8s
+
+#7 [1/5] FROM docker.io/library/node:22-alpine@sha256:0e1754758c2df4cfa3e68d59e2e1b7374bb7fd9ea6328eaaacf15cc934af8202
+#7 extracting sha256:071409a402546fea9e56af710d951a9e0c9bb205e4b1186811677d2c9dcad115
+#7 extracting sha256:071409a402546fea9e56af710d951a9e0c9bb205e4b1186811677d2c9dcad115 1.2s done
+#7 DONE 37.1s
+
+#8 [2/5] WORKDIR /app
+#8 DONE 2.8s
+
+#9 [3/5] COPY --chown=node:node package.json server.mjs ./
+#9 DONE 0.7s
+
+#10 [4/5] COPY --chown=node:node public ./public
+#10 DONE 0.6s
+
+#11 [5/5] RUN mkdir -p /data && chown node:node /data
+#11 DONE 12.7s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 0.4s done
+#12 exporting manifest sha256:6f265097d9b406077915dbd46e2685977b64b3b100fe309fc79c5dee3cafbf63 0.0s done
+#12 exporting config sha256:444b5ab9320738cfd9ddffce5a6e10a99a9d958220de0438155e8f6f5e15ff9f 0.0s done
+#12 exporting attestation manifest sha256:97833803fb0b0647301b0386655b80f00823c94bcafe5c8b63eedfe3ff6c3c1c 0.0s done
+#12 exporting manifest list sha256:9b59dff4eefcd65264aecf1d51d846bd2a7a3fd45d6a4d0e24f7d8b11b77047c
+#12 exporting manifest list sha256:9b59dff4eefcd65264aecf1d51d846bd2a7a3fd45d6a4d0e24f7d8b11b77047c 0.0s done
+#12 naming to docker.io/library/docker-taskflow-module04:local 0.0s done
+#12 unpacking to docker.io/library/docker-taskflow-module04:local 0.1s done
+#12 DONE 0.8s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.1s
+ Image docker-taskflow-module04:local Built

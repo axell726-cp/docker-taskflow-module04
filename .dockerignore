@@ -1,0 +1,10 @@
+.git
+.gitignore
+.github
+node_modules
+data
+evidence
+tests
+.env
+.env.*
+*.log

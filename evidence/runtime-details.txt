@@ -1,0 +1,17 @@
+Captured: 2026-11-10 03:33:26 -05:00
+Docker: 29.7.2 client / 29.7.2 server (linux/amd64)
+Compose: 5.5.0
+
+Compose services:
+NAME                IMAGE                            COMMAND                  SERVICE   CREATED          STATUS                   PORTS
+taskflow-module04   docker-taskflow-module04:local   "docker-entrypoint.s…"   app       10 minutes ago   Up 7 minutes (healthy)   127.0.0.1:3004->3000/tcp
+
+Container inspect (ID|state|health|user|read_only|mounts):
+b41d9efc1b68f94861c71a53e21872df30d437f95bbe370e760e8c1add5ae2d1|running|healthy|user=node|read_only=true|[{"Destination":"/data","Driver":"local","Mode":"rw","Name":"docker-taskflow-module04_taskflow-data","Propagation":"","RW":true,"Source":"/var/lib/docker/volumes/docker-taskflow-module04_taskflow-data/_data","Type":"volume"}]
+Container environment (selected non-secret values): NODE_ENV=production, PORT=3000, DATA_DIR=/data
+Image: sha256:9b59dff4eefcd65264aecf1d51d846bd2a7a3fd45d6a4d0e24f7d8b11b77047c|size=61360026 bytes|user=node
+Volume: docker-taskflow-module04_taskflow-data|driver=local
+Network: docker-taskflow-module04_taskflow|driver=bridge
+Published port: 3000/tcp -> 127.0.0.1:3004
+GET /api/health: HTTP 200 {"status":"ok","storage":"json-file-volume"}
+GET /api/tasks after cleanup: HTTP 200 {"tasks":[]}
